@@ -18,7 +18,7 @@ footer{
 
 p{
     font-family: $font-family-serif;
-    font-size: 18px;
+    font-size: 3vw;
 }
 
 .fond{
@@ -31,7 +31,7 @@ p{
         width: 100%;
         height: 100%;
         background-image: url(../Images/IMAGEDEFOND.jpg);
-        background-size: cover;
+        background-size:cover;
         filter: brightness(0.3)
     }
 
@@ -41,10 +41,40 @@ p{
     }
 
     .fond-content{
-        height: 500px;
+        height: 350px;
         display: flex;
         flex-direction:column;
         align-items:center;
         justify-content:start;
+    }
+}
+
+
+.text-justify{
+    text-align: justify;
+}
+
+.image-card{
+    position:relative;
+    &:hover{
+        .titre-image{
+            opacity: 1;
+        }
+        img{
+            filter: brightness(0.3);
+        }
+    }
+
+    img{
+        transition: all 0.3s;
+    }
+
+    .titre-image{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: all 0.3s;
     }
 }
