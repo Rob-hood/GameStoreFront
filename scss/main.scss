@@ -83,3 +83,31 @@ p{
     font-size: 20px;
     font-family: $font-family-serif;
 }
+
+.fond-user{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Images/User.jpg);
+        background-size:cover;
+        filter: brightness(0.3)
+    }
+
+    *{
+        //positionner les éléments devant le ::before
+        position: relative;
+    }
+
+    .fond-content{
+        height: 350px;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:start;
+    }
+}
