@@ -84,6 +84,8 @@ p{
     font-family: $font-family-serif;
 }
 
+// Fond de page
+
 .fond-user{
     position: relative;
     &::before{
@@ -111,3 +113,340 @@ p{
         justify-content:start;
     }
 }
+
+.godofwar{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Images/FONDGODOFWAR.jpg);
+        background-size:cover;
+        filter: brightness(0.3)
+    }
+
+    *{
+        //positionner les éléments devant le ::before
+        position: relative;
+    }
+
+    .fond-content{
+        height: 500px;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:start;
+    }
+
+}.spiderman{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Images/FONDSPIDER.jpg);
+        background-size:cover;
+        filter: brightness(0.3)
+    }
+
+    *{
+        //positionner les éléments devant le ::before
+        position: relative;
+    }
+
+    .fond-content{
+        height: 500px;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:start;
+    }
+}
+
+.payday{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Images/FONDPAYDAY.jpg);
+        background-size:cover;
+        filter: brightness(0.3)
+    }
+
+    *{
+        //positionner les éléments devant le ::before
+        position: relative;
+    }
+
+    .fond-content{
+        height: 500px;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:start;
+    }
+}
+
+.forzamotorsport{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Images/FONDFORZAMOTORSPORT.jpg);
+        background-size:cover;
+        filter: brightness(0.3)
+    }
+
+    *{
+        //positionner les éléments devant le ::before
+        position: relative;
+    }
+
+    .fond-content{
+        height: 500px;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:start;
+    }
+}
+
+.grandtheftauto{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Images/FONDGTA.jpg);
+        background-size:cover;
+        filter: brightness(0.3)
+    }
+
+    *{
+        //positionner les éléments devant le ::before
+        position: relative;
+    }
+
+    .fond-content{
+        height: 500px;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:start;
+    }
+}
+
+.reddeadredemption{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Images/FONDRDR.jpg);
+        background-size:cover;
+        filter: brightness(0.3)
+    }
+
+    *{
+        //positionner les éléments devant le ::before
+        position: relative;
+    }
+
+    .fond-content{
+        height: 500px;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:start;
+    }
+}
+
+.forzahorizon{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Images/FONDFH.jpg);
+        background-size:cover;
+        filter: brightness(0.3)
+    }
+
+    *{
+        //positionner les éléments devant le ::before
+        position: relative;
+    }
+
+    .fond-content{
+        height: 500px;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:start;
+    }
+}
+
+.finalfantasy{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Images/FONDFF.jpg);
+        background-size:cover;
+        filter: brightness(0.3)
+    }
+
+    *{
+        //positionner les éléments devant le ::before
+        position: relative;
+    }
+
+    .fond-content{
+        height: 500px;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:start;
+    }
+}
+
+.helldivers{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Images/FONDHELLDIVERS.jpg);
+        background-size:cover;
+        filter: brightness(0.3)
+    }
+
+    *{
+        //positionner les éléments devant le ::before
+        position: relative;
+    }
+
+    .fond-content{
+        height: 500px;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:start;
+    }
+}
+
+.diablo{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Images/FONDDIABLO.jpg);
+        background-size:cover;
+        filter: brightness(0.3)
+    }
+
+    *{
+        //positionner les éléments devant le ::before
+        position: relative;
+    }
+
+    .fond-content{
+        height: 500px;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:start;
+    }
+}
+
+.minecraft{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Images/FONDMINECRAFT.jpg);
+        background-size:cover;
+        filter: brightness(0.3)
+    }
+
+    *{
+        //positionner les éléments devant le ::before
+        position: relative;
+    }
+
+    .fond-content{
+        height: 500px;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:start;
+    }
+}
+
+.thewitcher{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Images/FONDTHEWITCHER.jpg);
+        background-size:cover;
+        filter: brightness(0.3)
+    }
+
+    *{
+        //positionner les éléments devant le ::before
+        position: relative;
+    }
+
+    .fond-content{
+        height: 500px;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:start;
+    }
+}
+
+// Fond de page
