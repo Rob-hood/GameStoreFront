@@ -9,6 +9,10 @@
     <h1 class="text-center p-4 bg-secondary" style="margin:0px;">Nos Jeux</h1>
 </div>
 
+<div class="text-center p-4">
+    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#EditionPhotoModal">Ajouter un jeu</button>
+</div>
+
 <div class="row row-cols-3 mx-auto w-100">
     <a href="/spiderman">
     <div class="col p-3">
@@ -23,7 +27,7 @@
     <div class="col p-3">
         <div class="image-card text-white">
             <img src="../Images/PAYDAY3.jpg" class="rounded w-100"/>
-            <p class="titre-image">Red Dead Redemption 2<br>PEGI : 18</p>
+            <p class="titre-image">Payday 3<br>PEGI : 18</p>
         </div>
     </div>
     </a>
@@ -123,4 +127,33 @@
         </div>
     </div>
     </a>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="EditionPhotoModal" tabindex="-1" role="dialog" aria-labelledby="EditionPhotoModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="justify-content: space-between;">
+          <h2 class="modal-title" id="EditionPhotoModalLabel">Edition Photo</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <label for="NamePhotoInput" class="form-label">Titre</label>
+                  <input type="text" class="form-control" id="NamePhotoInput" placeholder="Grand theft auto 5">
+                </div>
+                <div class="form-group">
+                  <label for="ImageInput" class="form-label">Image</label>
+                  <input type="file" class="form-control" id="ImageInput">
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-secondary m-4">Enregistrer</button>
+                </div>
+              </form>
+        </div>
+      </div>
+    </div>
 </div>
